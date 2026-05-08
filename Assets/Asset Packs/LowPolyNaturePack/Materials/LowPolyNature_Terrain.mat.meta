@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e777267a536787438980385f6cf86b3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 164123
+  packageName: Low-Poly Nature Pack
+  packageVersion: 1.12
+  assetPath: Assets/LowPolyNaturePack/Materials/LowPolyNature_Terrain.mat
+  uploadId: 582627
