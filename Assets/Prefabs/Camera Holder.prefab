@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254379735042411289}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.19979, y: 0.475, z: -2.53659}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -59,6 +59,7 @@ GameObject:
   - component: {fileID: 8577162585653387131}
   - component: {fileID: 3929030802335891532}
   - component: {fileID: 1327814648318710418}
+  - component: {fileID: 6922412266349303322}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -200,3 +201,15 @@ MonoBehaviour:
   sensY: 30
   orientation: {fileID: 0}
   gamePaused: 0
+--- !u!114 &6922412266349303322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6243291078044641334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fef6a4e51d3327468829b9f21da674e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Raycast
