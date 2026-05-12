@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Playground-Kid.unity
+    guid: 972cabc2a439df544b81dbb079b29760
+  - enabled: 1
+    path: Assets/Scenes/TeenScene.unity
+    guid: cef6f95d7c5c6482fae65a35dd552d0f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
