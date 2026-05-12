@@ -172,7 +172,9 @@ PrefabInstance:
       value: NecroPOLY_Chunk_02d_PRE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4508547899635615885, guid: 9ca63c837890190449835aff1454c9f5, type: 3}
+    - {fileID: 4225590088238569728, guid: 9ca63c837890190449835aff1454c9f5, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ca63c837890190449835aff1454c9f5, type: 3}
@@ -605,7 +607,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 13
   m_Type: 1
-  m_Color: {r: 0.24995552, g: 0.25502357, b: 0.38679248, a: 1}
+  m_Color: {r: 0.5166429, g: 0.5270309, b: 0.8490566, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
