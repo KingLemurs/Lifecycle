@@ -56,7 +56,7 @@ Material:
     - _QueueOffset: 0
     - _baseSpeed: 10
     - _baseStrength: 10
-    - _curvature_radious: 100
+    - _curvature_radious: 25
     - _emmision_strength: 2
     - _fade_depth: -0.011
     - _fogSpeed: 1
