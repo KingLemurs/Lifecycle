@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: df0e363e62f09e147823c80c62c4de24
-timeCreated: 1520575782
+guid: f58cf65ea995c4b45be95713bdea8134
+timeCreated: 1522540975
 licenseType: Store
-ShaderImporter:
+NativeFormatImporter:
   externalObjects: {}
-  defaultTextures: []
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -13,5 +13,5 @@ AssetOrigin:
   productId: 115488
   packageName: Quick Outline
   packageVersion: 1.1
-  assetPath: Assets/QuickOutline/Resources/Shaders/OutlineFill.shader
+  assetPath: Assets/QuickOutline/Samples/Materials/Plane.mat
   uploadId: 485303

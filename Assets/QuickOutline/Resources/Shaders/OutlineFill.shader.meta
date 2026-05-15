@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: e00330849ff2a50439c65eac9b1071c3
-timeCreated: 1522369084
+guid: 4e76d4023d7e0411297c670f878973e2
+timeCreated: 1520575782
 licenseType: Store
-MonoImporter:
+ShaderImporter:
   externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
+  defaultTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -16,5 +13,5 @@ AssetOrigin:
   productId: 115488
   packageName: Quick Outline
   packageVersion: 1.1
-  assetPath: Assets/QuickOutline/Scripts/Outline.cs
+  assetPath: Assets/QuickOutline/Resources/Shaders/OutlineFill.shader
   uploadId: 485303
