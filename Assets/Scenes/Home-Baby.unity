@@ -7345,6 +7345,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[2].musicClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2710ae989485547338a5a67bf223fd51, type: 3}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[2].sceneName
+      value: LectureHall-YAdult
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[3].musicClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ab1b2dbba008a4c5091fa5df82860eff, type: 3}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[3].sceneName
+      value: Adult-Midlife
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[4].musicClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 971482f707d654370adc0b0ce795818d, type: 3}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[4].sceneName
+      value: Elderly
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[5].musicClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e95d89ff0e0cd4586938cc1b07c2c601, type: 3}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[5].sceneName
+      value: Cemetreyytr
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[2].ambientClip
+      value: 
+      objectReference: {fileID: 8300000, guid: acca2fa56cb044ab8842a356dfe1baa4, type: 3}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[3].ambientClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ab1b2dbba008a4c5091fa5df82860eff, type: 3}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[4].ambientClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d3624b4e15244e86b90d08cf72bb8ef, type: 3}
+    - target: {fileID: 6260318645546709021, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
+      propertyPath: customPlaylist.Array.data[5].ambientClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8973466570642924425, guid: be65d79b124c5471c878ef1686ce46c4, type: 3}
       propertyPath: m_Name
       value: AudioManger
