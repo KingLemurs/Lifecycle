@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BenchScript : MonoBehaviour
@@ -58,9 +59,10 @@ public class BenchScript : MonoBehaviour
         if (Image.color.a >= 1.5f)
         {
             print("load cemetery");
+            SceneManager.LoadScene("Cemetreyytr");
         }
         
-        if (!_panelFlag || _tickNum % 8 != 0) return;
+        if (!_panelFlag || _tickNum % 5 != 0) return;
 
         print(Image.color.a);
         var color = Image.color;
