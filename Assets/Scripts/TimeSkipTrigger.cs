@@ -16,6 +16,7 @@ public class TimeSkipTrigger : MonoBehaviour
     public float handSpinSpeed = 1200f;
     public float fadeSpeed = 2f;
 
+    public bool timeSkipFinished { get; private set; } = false;
     private bool hasTriggered = false;
 
     private void Start()
@@ -55,7 +56,7 @@ public class TimeSkipTrigger : MonoBehaviour
         clockHand.gameObject.SetActive(true);
 
         // Fade screen slightly darker
-        yield return StartCoroutine(FadeTo(0.75f));
+        yield return StartCoroutine(FadeTo(2.95f));
 
         float timer = 0f;
 
@@ -93,13 +94,16 @@ public class TimeSkipTrigger : MonoBehaviour
         // Hide clock after effect finishes
         clockPanel.SetActive(false);
         clockHand.gameObject.SetActive(false);
+        timeSkipFinished = true;
     }
 
     private IEnumerator FadeTo(float targetAlpha)
     {
         if (fadeImage == null) yield break;
 
-        Color color = fadeImage.color;
+        Color color = Color.black;
+        color.a = fadeImage.color.a;
+        fadeImage.color = color;
 
         while (!Mathf.Approximately(color.a, targetAlpha))
         {
