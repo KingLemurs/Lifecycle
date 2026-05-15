@@ -6,10 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Elderly.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Home-Baby.unity
+    guid: 1a0359aaba2652d4aa378b7144d82ea7
+  - enabled: 1
+    path: Assets/Scenes/Playground-Kid.unity
+    guid: 972cabc2a439df544b81dbb079b29760
+  - enabled: 1
+    path: Assets/Scenes/TeenScene.unity
+    guid: cef6f95d7c5c6482fae65a35dd552d0f
+  - enabled: 1
+    path: Assets/Scenes/LectureHall-YAdult.unity
+    guid: 333b9c5c859435e4790d9ee003868dec
   - enabled: 1
     path: Assets/Scenes/Adult-Midlife.unity
     guid: b379f8dd7bd6347fe972378b4b3a6f10
+  - enabled: 1
+    path: Assets/Scenes/Elderly.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Cemetreyytr.unity
+    guid: 21936002895744d80b914f569b45ba4d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
