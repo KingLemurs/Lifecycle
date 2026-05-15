@@ -1039,9 +1039,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   customPlaylist:
   - sceneName: Home-Baby
-    musicClip: {fileID: 0}
+    musicClip: {fileID: 8300000, guid: 36e4369429ec64abf81e80d529407aa7, type: 3}
     ambientClip: {fileID: 0}
   - sceneName: Playground-Kid
+    musicClip: {fileID: 8300000, guid: 1b667b311017a4916b3125d482c44a37, type: 3}
+    ambientClip: {fileID: 0}
+  - sceneName: TeenScene
+    musicClip: {fileID: 8300000, guid: 06b3a884f2e8e4996828b7c85ccc7b38, type: 3}
+    ambientClip: {fileID: 8300000, guid: 64bf026245f014fbeadd0d77ad73cacf, type: 3}
+  - sceneName: LectureHall-YAdult
+    musicClip: {fileID: 8300000, guid: 2710ae989485547338a5a67bf223fd51, type: 3}
+    ambientClip: {fileID: 8300000, guid: acca2fa56cb044ab8842a356dfe1baa4, type: 3}
+  - sceneName: Elderly
+    musicClip: {fileID: 8300000, guid: 5a68cb8a6aee14fba85e10c28bedc3d9, type: 3}
+    ambientClip: {fileID: 8300000, guid: 3d3624b4e15244e86b90d08cf72bb8ef, type: 3}
+  - sceneName: Cemetreyytr
     musicClip: {fileID: 0}
     ambientClip: {fileID: 0}
 --- !u!4 &1971293308
