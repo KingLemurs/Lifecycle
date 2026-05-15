@@ -18922,7 +18922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8078131702453326124, guid: d692c0f20d1038a4284d703bba4878ff, type: 3}
       propertyPath: nextScene
-      value: Adult-Midlife
+      value: TeenScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
